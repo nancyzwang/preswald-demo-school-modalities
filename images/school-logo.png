@@ -1,0 +1,10 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .logo { font: bold 24px sans-serif; fill: #1E88E5; }
+    .building { fill: #34D399; }
+  </style>
+  <rect class="building" x="40" y="80" width="120" height="80" rx="8"/>
+  <path class="building" d="M20 80 L100 20 L180 80 Z"/>
+  <text class="logo" x="100" y="120" text-anchor="middle">Learning</text>
+  <text class="logo" x="100" y="145" text-anchor="middle">Modalities</text>
+</svg>

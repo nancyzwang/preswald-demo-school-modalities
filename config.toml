@@ -1,0 +1,36 @@
+[project]
+title = "School Learning Modalities Explorer"
+version = "1.0.0"
+port = 9509
+
+[branding]
+name = "Learning Modalities Explorer"
+primaryColor = "#1E88E5"  # Professional blue color
+
+[theme]
+font = "Inter, system-ui, -apple-system, sans-serif"
+backgroundColor = "#F5F7FA"
+textColor = "#2D3748"
+
+[theme.color]
+primary = "#1E88E5"
+secondary = "#34D399"
+accent = "#6366F1"
+
+[theme.components]
+borderRadius = "8px"
+shadow = "0 4px 6px -1px rgba(0, 0, 0, 0.1)"
+
+[data.csv]
+type = "csv"
+file_path = "School_Learning_Modalities__2021-2022_20250114.csv"
+delimiter = ","
+header = true
+
+[logging]
+level = "INFO"
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+
+[chart.defaults]
+colorScheme = ["#1E88E5", "#34D399", "#6366F1", "#F59E0B", "#EC4899"]
+fontFamily = "Inter, system-ui, -apple-system, sans-serif"
