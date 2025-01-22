@@ -2,7 +2,7 @@
 
 An interactive dashboard built with Preswald to visualize and analyze school learning modalities data from 2021-2022. This tool helps educators, administrators, and policymakers understand trends in school operations, learning approaches, and student distributions across different regions.
 
-![Preview](images/dashboard-preview.png)
+
 
 ## Features
 - **Comprehensive Analytics**: Analyze student counts, learning modalities, and operational schools across districts, cities, and states
